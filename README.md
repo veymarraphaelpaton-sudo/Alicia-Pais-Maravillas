@@ -103,15 +103,16 @@ Las capturas de pantalla del funcionamiento de los tres ejercicios se encuentran
 
 ## 9. Página web publicada
 
-Pegar aquí el enlace de GitHub Pages.
+https://veymarraphaelpaton-sudo.github.io/Alicia-Pais-Maravillas/
 
 ## 10. Repositorio
 
-Pegar aquí el enlace del repositorio de GitHub.
+https://github.com/veymarraphaelpaton-sudo/Alicia-Pais-Maravillas
 
 ## 11. Video de demostración
 
-Pegar aquí el enlace del video de demostración.
+https://youtu.be/s2AvLdhLiLY?si=Ob9XkMFc6Qgm7u-5
+
 
 
 
