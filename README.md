@@ -113,6 +113,18 @@ https://github.com/veymarraphaelpaton-sudo/Alicia-Pais-Maravillas
 
 https://youtu.be/s2AvLdhLiLY?si=Ob9XkMFc6Qgm7u-5
 
+## 12. Evidencias del proyecto
 
+### Página principal
+![Página principal](evidencias/01_pagina_principal.png)
+
+### Ejercicio 1: Poción mágica
+![Resultado de la poción](evidencias/02_pocion.png)
+
+### Ejercicio 2: Merienda del Sombrerero
+![Resultado de la merienda](evidencias/03_merienda.png)
+
+### Ejercicio 3: Reina de Corazones
+![Resultado de las cartas](evidencias/04_reina.png)
 
 
