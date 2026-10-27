@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alicia en el País de las Maravillas</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alicia en el País de las Maravillas</h1>
+
+        <p>
+            Tres desafíos mágicos utilizando HTML, CSS y JavaScript.
+        </p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>1. La poción mágica de Alicia</h2>
+
+            <p>
+                Ayuda a Alicia a descubrir cuánto medirá después
+                de beber una poción mágica.
+            </p>
+
+            <p>
+                Regla matemática: altura final = altura inicial
+                - (2 × cantidad de poción).
+            </p>
+
+            <p>La puerta mide 140 centímetros.</p>
+
+            <form id="formularioPocion">
+
+                <label for="alturaInicial">
+                    Altura inicial de Alicia (cm):
+                </label>
+
+                <input
+                    type="number"
+                    id="alturaInicial"
+                    min="0.01"
+                    step="any"
+                    required
+                >
+
+                <label for="cantidadPocion">
+                    Cantidad de poción (ml):
+                </label>
+
+                <input
+                    type="number"
+                    id="cantidadPocion"
+                    min="0"
+                    max="100"
+                    step="any"
+                    required
+                >
+
+                <button type="submit">Calcular altura</button>
+
+            </form>
+
+            <p id="resultadoPocion" aria-live="polite">
+                Aquí aparecerá el resultado.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>2. La merienda del Sombrerero Loco</h2>
+
+            <p>
+                Elige una bebida y calcula el costo de la merienda.
+            </p>
+
+            <p>Precios por taza:</p>
+
+            <ul>
+                <li>Té mágico: Bs 5</li>
+                <li>Chocolate encantado: Bs 8</li>
+                <li>Café del conejo: Bs 6</li>
+                <li>Jugo de las maravillas: Bs 4</li>
+            </ul>
+
+            <p>
+                Descuento del 10 % en compras de 10 tazas o más.
+            </p>
+
+            <form id="formularioMerienda">
+
+                <label for="nombreInvitado">
+                    Nombre del invitado:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombreInvitado"
+                    required
+                >
+
+                <label for="bebida">
+                    Selecciona una bebida:
+                </label>
+
+                <select id="bebida" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="te">Té mágico</option>
+                    <option value="chocolate">Chocolate encantado</option>
+                    <option value="cafe">Café del conejo</option>
+                    <option value="jugo">Jugo de las maravillas</option>
+                </select>
+
+                <label for="cantidadTazas">
+                    Cantidad de tazas:
+                </label>
+
+                <input
+                    type="number"
+                    id="cantidadTazas"
+                    min="1"
+                    max="20"
+                    step="1"
+                    required
+                >
+
+                <button type="submit">Calcular compra</button>
+
+            </form>
+
+            <p id="resultadoMerienda" aria-live="polite">
+                Aquí aparecerá el detalle de la compra.
+            </p>
+        </section>
+
+
+        <section>
+            <h2>3. El desafío de la Reina de Corazones</h2>
+
+            <p>
+                La Reina quiere conocer los números pares e impares
+                de una secuencia.
+            </p>
+
+            <p>
+                Introduce un número entero entre 1 y 100.
+            </p>
+
+            <form id="formularioCartas">
+
+                <label for="cantidadCartas">
+                    Cantidad de cartas:
+                </label>
+
+                <input
+                    type="number"
+                    id="cantidadCartas"
+                    min="1"
+                    max="100"
+                    step="1"
+                    required
+                >
+
+                <button type="submit">Analizar cartas</button>
+
+            </form>
+
+            <p id="resultadoCartas" aria-live="polite">
+                Aquí aparecerá el análisis de las cartas.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Actividad práctica de Programación Web I</p>
+        <p>HTML5 · CSS3 · JavaScript</p>
+    </footer>
+
+</body>
+</html>
+
+
